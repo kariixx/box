@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 800px;
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    row-gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(195, 252, 248);
+    color: #00a598;
+    font-size: 20px;
+}
+
+.border-with-box {
+    border: 15px solid black;
+    box-sizing: border-box;
+}
+
+
+
+.border-without-box {
+    border: 15px solid black;
+    
+}
+
+.padding-with-box {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+.padding-without-box {
+    padding: 50px;
+}
